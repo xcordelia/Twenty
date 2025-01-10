@@ -4,10 +4,11 @@
   "description": "A simple landing page similar to Linktree.",
   "main": "index.html",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "echo 'No build step required for a static site'"
   },
   "keywords": ["landing-page", "linktree", "html", "css"],
-  "author": "Your Name",
+  "author": "Twenty",
   "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.6.1"
