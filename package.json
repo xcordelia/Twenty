@@ -1,0 +1,15 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "A simple landing page similar to Linktree.",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": ["landing-page", "linktree", "html", "css"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
