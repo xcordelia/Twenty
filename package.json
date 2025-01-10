@@ -5,12 +5,18 @@
   "main": "index.html",
   "scripts": {
     "start": "lite-server",
-    "build": "echo 'No build step required for a static site'"
+    "build": "vite build", 
+    "deploy": "gh-pages -d dist"
   },
   "keywords": ["landing-page", "linktree", "html", "css"],
-  "author": "Twenty",
+  "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "vite": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "gh-pages": "^3.2.3"
+  },
+  "dependencies": {
+    "vite": "^4.0.0"
   }
 }
